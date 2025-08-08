@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(239, 196, 239);
+}
+.guess-number {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+input {
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    outline: none;
+}
+.btn {
+    margin-top: 15px;
+}
+button {
+     padding: 8px 15px;
+    background: rgb(235, 87, 252);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.text {
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 600;
+}
+.userGuess {
+    margin-top: 15px;
+    font-size: 20px;
+}

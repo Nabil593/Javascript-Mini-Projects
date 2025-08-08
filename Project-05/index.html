@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbe Guess Game</title>  
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <div class="guess-number">
+
+        <h1>Enter a guess btween 0 to 100</h1>
+    <form>
+        <input class="user-input" type="number" placeholder="Enter a number" min="0" max="100" required>
+       <div class="btn">
+         <button class="submit-btn">Submit</button>
+         <button type="button" class="start-btn" disabled> Start Game</button>
+       </div>
+    </form>
+    <p class="text"></p>
+    <p class="userGuess"></p>
+
+    </div>
+
+    
+    <script src="dynamic.js"></script>
+</body>
+</html>

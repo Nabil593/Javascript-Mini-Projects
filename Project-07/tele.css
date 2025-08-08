@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: beige;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+lebel {
+    font-size: 17px;
+    font-weight: 500;
+}
+.input-data #Phone {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: 0.5px solid rgb(0, 0, 0);
+}
+#Phone.typing {
+    outline: 1px solid rgb(255, 0, 0);
+}
+.p-1 {
+    margin-top: 10px;
+    color: rgb(135, 135, 135);
+}
+.p-2 {
+    margin-top: 5px;
+    display: none;
+    color: rgb(255, 0, 0);
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.3s ease;
+}
