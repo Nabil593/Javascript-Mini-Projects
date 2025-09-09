@@ -1,1 +1,1 @@
-#Javascript Mini 10 Logical Projects.<br>
+#Javascript Mini 9 Logical Projects.<br>
